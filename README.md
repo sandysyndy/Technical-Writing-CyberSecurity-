@@ -11,7 +11,7 @@ Welcome to my 7-week technical writing tracking hub. This repository contains my
 ## 📂 Portfolio Directories
 *   [🌐 API Documentation](./api-docs/) — Developer guides, endpoints, and Postman workspaces.
 *   [🛡️ Cybersecurity Playbooks](./CyberSecurity-Playbooks/) — NIST SP 800-61 incident response documentation.
-*   [🔒 AI Governance & GRC](./Ai-Governance-Grc/) — Fictional corporate risk briefs and NIST AI RMF frameworks.
+*   [🔒 AI Governance & GRC](./ai-governance-grc/) — Fictional corporate risk briefs and NIST AI RMF frameworks.
 *   [📝 Weekly Learning Logs](./learning-logs/) — My raw, chronological diary of concepts mastered week-by-week.
 
 ---
