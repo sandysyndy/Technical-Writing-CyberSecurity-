@@ -2,7 +2,7 @@
 Tracking my roadmap in API documentation, cybersecurity playbooks, and AI governance.
 
 
-# 🚀 API & Cybersecurity Technical Writing Master Roadmap
+#  API & Cybersecurity Technical Writing Master Roadmap
 
 Welcome to my 7-week technical writing tracking hub. This repository contains my active learning logs, hands-on tool testing outputs, and professional portfolio deliverables as I transition my analytical background into specialized technical communication.
 
@@ -16,9 +16,9 @@ Welcome to my 7-week technical writing tracking hub. This repository contains my
 
 ---
 
-## 📅 Current Progress & Focus
+##  Current Progress & Focus
 
-### 🛠️ Week 1: Technical Writing Foundations (Current)
+###  Week 1: Technical Writing Foundations (Completed)
 This week, I focused on unlearning academic writing habits and mastering the core mechanics of clear, predictable technical documentation.
 
 *   **Active Voice Architecture:** Stripping out passive structures that hide accountability in high-stakes environments (e.g., transforming *"the alert was triggered"* into *"the system triggers the alert"*).
@@ -27,3 +27,14 @@ This week, I focused on unlearning academic writing habits and mastering the cor
 *   **Information Design:** Using structured list logic, clear headers, and plain-text Markdown formatting to build highly scannable layouts.
 
 > **Next Milestone:** Moving into Week 2 to analyze REST API anatomy, client-server response logic, and structural JSON payload testing.
+
+---
+
+##  Current Progress & Focus
+
+###  Week 3: Hands-on API Testing & Postman Workflows (Completed)
+This week, I focused on verifying and organizing API behavior in Postman before writing documentation.
+* **Request Execution:** Verified `GET` and `POST` requests across public API endpoints.
+* **Header Interrogation:** Parsed server metadata, content types, and response latency.
+* **Collection Architecture:** Structured endpoints cleanly into organized workspace collections.
+* **Multi-API Consolidation:** Validated request-response cycles across three distinct public APIs.
