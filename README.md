@@ -8,7 +8,7 @@ Welcome to my 7-week technical writing tracking hub. This repository contains my
 
 ---
 
-## 📂 Portfolio Directories
+##  Portfolio Directories
 *   [🌐 API Documentation](./api-docs/) — Developer guides, endpoints, and Postman workspaces.
 *   [🛡️ Cybersecurity Playbooks](./CyberSecurity-Playbooks/) — NIST SP 800-61 incident response documentation.
 *   [🔒 AI Governance & GRC](./ai-governance-grc/) — Fictional corporate risk briefs and NIST AI RMF frameworks.
@@ -30,7 +30,6 @@ This week, I focused on unlearning academic writing habits and mastering the cor
 
 ---
 
-##  Current Progress & Focus
 
 ###  Week 3: Hands-on API Testing & Postman Workflows (Completed)
 This week, I focused on verifying and organizing API behavior in Postman before writing documentation.
@@ -38,3 +37,12 @@ This week, I focused on verifying and organizing API behavior in Postman before 
 * **Header Interrogation:** Parsed server metadata, content types, and response latency.
 * **Collection Architecture:** Structured endpoints cleanly into organized workspace collections.
 * **Multi-API Consolidation:** Validated request-response cycles across three distinct public APIs.
+
+---
+
+
+###  Week 4: Deep-Dive API Technical Writing (Completed)
+* **Endpoint Documentation:** Structured resource descriptions, base paths, and query parameter tables.
+* **Request/Response Specs:** Documented JSON request payloads, success response bodies, and property schemas.
+* **Error Resolution Catalog:** Built remediation guides for troubleshooting `400 Bad Request` and `401 Unauthorized` states.
+* **Style & Quality Control:** Applied Google Technical Writing parameters to enforce scannable, direct, and active documentation.
