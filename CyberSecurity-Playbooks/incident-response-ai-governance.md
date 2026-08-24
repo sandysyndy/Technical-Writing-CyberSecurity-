@@ -10,18 +10,32 @@ Security teams execute a four-phase operational loop to detect, isolate, and rem
 
 `[ Preparation ] ➔ [ Detection & Analysis ] ➔ [ Containment & Recovery ] ➔ [ Post-Incident Activity ]`
 
-### Phase 1: Detection & Analysis
-* **Alert Validation:** Analysts verify SIEM alerts against baseline network traffic metrics to eliminate false positives.
-* **Log Evidence Extraction:** Capture raw syslog and host artifact records:
+### Phase 1: Preparation
+* **Tooling & Access:** Ensure SOC Tier 1/2 analysts maintain pre-authorized access to SIEM dashboards, endpoint detection and response (EDR) agents, and identity management consoles.
+* **Baseline Configuration:** Maintain up-to-date network baselines and asset inventories to distinguish anomalous traffic from routine operations.
+
+---
+
+### Phase 2: Detection & Analysis
+* **Alert Validation:** Analysts verify incoming SIEM alerts against baseline network traffic metrics to eliminate false positives.
+* **Log Evidence Extraction:** Capture raw syslog and host artifact records to confirm unauthorized access:
 
 ```text
 2026-08-24T11:14:02Z host-01 authd[1042]: Failed password for root from 192.168.1.105 port 42112 ssh2
 2026-08-24T11:14:05Z host-01 authd[1042]: Accepted password for root from 192.168.1.105 port 42114 ssh2
 
 ```
-### Phase 2: Containment & Remediation
-* **Short-Term Isolation**: Sever network interfaces on compromised endpoints via host-based firewall rules.
-* **Long-Term Containment**: Revoke compromised OAuth tokens, force credential resets across identity providers (IdP), and apply updated access control lists (ACLs).
+### Phase 3: Containment, Eradication & Recovery
+* **Short-Term Isolation**: Sever network interfaces on compromised endpoints via host-based firewall rules to halt lateral movement.
+* **Long-Term Containment**: Revoke compromised OAuth tokens, force credential resets across identity providers (IdP), and update Access Control Lists (ACLs).
+* **Eradication**: Identify and remove rootkits, persistent backdoors, and malicious scripts from infected hosts.
+* **Recovery**: Restore affected systems from verified clean backups, validate system integrity, and return systems to production under enhanced monitoring.
+
+### Phase 4: Post-Incident Activity (Lessons Learned)
+* **Post-Incident Analysis (PIA) Meeting**: Conduct a formal debriefing within 3 business days of incident closure with SOC, engineering, and legal stakeholders.
+* **Root-Cause Analysis (RCA)**: Document the precise vulnerability or misconfiguration that enabled exploitation.
+* **Action Item Tracking**: Update threat models, firewall rules, and IR playbooks based on operational gaps identified during the incident.
+* **Evidence Retention**: Archive forensic images, raw log captures, and communication logs in accordance with regulatory data retention policies.
 
 ## 2. NIST AI RMF 1.0 Governance Implementation
 
