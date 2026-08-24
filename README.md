@@ -46,3 +46,10 @@ This week, I focused on verifying and organizing API behavior in Postman before 
 * **Request/Response Specs:** Documented JSON request payloads, success response bodies, and property schemas.
 * **Error Resolution Catalog:** Built remediation guides for troubleshooting `400 Bad Request` and `401 Unauthorized` states.
 * **Style & Quality Control:** Applied Google Technical Writing parameters to enforce scannable, direct, and active documentation.
+
+
+###  Week 5: Incident Response & AI Governance (Completed)
+* **Incident Playbook Authoring:** Modeled detection, containment, and post-incident reporting pipelines following NIST SP 800-61 Rev. 2.
+* **Log Forensic Documentation:** Integrated raw SIEM/host log snippets into technical incident reports.
+* **AI Safety Governance:** Applied NIST AI RMF 1.0 pillars (**Govern**, **Map**, **Measure**, **Manage**) to secure AI deployments.
+* **Trustworthiness Matrices:** Documented compliance criteria for resilient, privacy-enhanced AI models.
