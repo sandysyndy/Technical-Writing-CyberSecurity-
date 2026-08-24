@@ -53,3 +53,10 @@ This week, I focused on verifying and organizing API behavior in Postman before 
 * **Log Forensic Documentation:** Integrated raw SIEM/host log snippets into technical incident reports.
 * **AI Safety Governance:** Applied NIST AI RMF 1.0 pillars (**Govern**, **Map**, **Measure**, **Manage**) to secure AI deployments.
 * **Trustworthiness Matrices:** Documented compliance criteria for resilient, privacy-enhanced AI models.
+
+
+###  Week 6: API Security & AI Threat Governance (Completed)
+* **OWASP API Vulnerability Mapping:** Analyzed BOLA, broken authentication, and rate-limiting enforcement models.
+* **API Hardening Manual:** Authored an enterprise brief on token leakage prevention, header enforcement, and log sanitization.
+* **AI Threat Mitigation:** Documented defensive controls for Indirect Prompt Injection and Data Poisoning within LLM API pipelines.
+* **Security Header Validation:** Configured automated security validation tests in Postman
