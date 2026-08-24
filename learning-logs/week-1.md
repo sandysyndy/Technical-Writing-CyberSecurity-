@@ -1,4 +1,4 @@
-### 🛠️ Continuous Learning: Technical Writing Foundations (Week 1)
+### 🛠️ Continuous Learning: Technical Writing Foundations 
 
 This week, I focused on unlearning academic writing habits and mastering the core mechanics of clear, predictable technical documentation. My tracking modules covered:
 
